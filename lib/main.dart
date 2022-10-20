@@ -39,9 +39,11 @@ class MyApp extends StatelessWidget {
             Row(
               children: [
                 Text('こんぶ @ Flutter大学'),
+                SizedBox(width: 8),
                 Text('2022/05/05')
               ],
             ),
+            SizedBox(height: 4),
             Text('最高でした。')
           ],
         ),
