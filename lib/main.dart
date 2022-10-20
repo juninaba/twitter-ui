@@ -33,10 +33,16 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
-        body: Row(
+        body: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('こんぶ @ Flutter大学'),
-            Text('2022/05/05')
+            Row(
+              children: [
+                Text('こんぶ @ Flutter大学'),
+                Text('2022/05/05')
+              ],
+            ),
+            Text('最高でした。')
           ],
         ),
       ),
