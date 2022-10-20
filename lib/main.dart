@@ -33,6 +33,12 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
+        body: Row(
+          children: [
+            Text('こんぶ @ Flutter大学'),
+            Text('2022/05/05')
+          ],
+        ),
       ),
     );
   }
