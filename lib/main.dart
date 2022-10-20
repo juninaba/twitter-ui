@@ -33,7 +33,22 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
-        body: TweetTile(),
+        body: SingleChildScrollView( // スクロールできるようになります。
+          child: Column(
+            children: [
+              TweetTile(),
+              TweetTile(),
+              TweetTile(),
+              TweetTile(),
+              TweetTile(),
+              TweetTile(),
+              TweetTile(),
+              TweetTile(),
+              TweetTile(),
+              TweetTile(),
+            ],
+          ),
+        ),
       ),
     );
   }
